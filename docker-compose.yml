@@ -1,0 +1,13 @@
+version: "3.6"
+
+services:
+  node:
+    image: node:20-alpine
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
+    ports:
+      - 5173:5173
+      - 4173:4173
+    command: "tail -f /dev/null"
