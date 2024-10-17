@@ -23,11 +23,25 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  background-image: linear-gradient(to right, rgba(0, 132, 255, 0), rgb(0 21 36 / 71%));
+  backdrop-filter: blur(2px);
+  padding-right: 1.5rem;
+}
+
+.carousel-caption > h1, .carousel-caption > p {
+  text-shadow: 1px 1px 9px #0000008f;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+}
+
+.carousel-item-background-image {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
