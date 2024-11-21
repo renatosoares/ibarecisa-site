@@ -43,6 +43,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  image-rendering: pixelated;
 }
 
 
@@ -126,6 +127,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  image-rendering: pixelated;
 }
 
 .feature-icon-small {
