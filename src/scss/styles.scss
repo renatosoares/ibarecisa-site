@@ -130,6 +130,28 @@ body {
   image-rendering: pixelated;
 }
 
+.card-cover.image-pastor-rubens {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgb(0 0 0 / 0%),
+      rgb(0 0 0 / 0%),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(/pastor-rubens.jpeg);
+}
+
+.card-cover.image-pastor-ariel {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgb(0 0 0 / 0%),
+      rgb(0 0 0 / 0%),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(/pastor-ariel.jpeg);
+}
+
 .feature-icon-small {
   width: 3rem;
   height: 3rem;
