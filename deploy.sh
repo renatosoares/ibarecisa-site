@@ -6,7 +6,7 @@ docker compose exec node sh -c "npm run build"
 
 cd dist
 
-echo ibarecisa.renatosoares.dev > CNAME
+echo ibarecisa.org.br > CNAME
 
 git init -b main
 git add -A
