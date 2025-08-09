@@ -70,7 +70,7 @@ import * as bootstrap from 'bootstrap'
                   width="100%"
                   preserveAspectRatio="xMidYMid slice"
                   role="img"
-                  src="${item.videoUrl}"
+                  src="https://www.youtube.com/embed/${item.videoId}"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
