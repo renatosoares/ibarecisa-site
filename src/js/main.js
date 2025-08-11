@@ -47,7 +47,7 @@ import * as bootstrap from 'bootstrap'
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("last-broadcasts-solemn-worship");
 
-    fetch("solemn-worship.json")
+    fetch("https://gist.githubusercontent.com/renatosoares/bc4714a9ba467b175ae5a70032904101/raw/ibarecisa-solemn-worship-broadcasts.json")
       .then(response => {
         if (!response.ok) {
           throw new Error("Erro ao carregar o JSON");
