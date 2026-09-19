@@ -4,7 +4,7 @@ set -e
 
 git checkout main
 
-docker compose exec node sh -c "npm run build"
+docker compose run --rm node sh -c "npm run build"
 
 cd dist
 
